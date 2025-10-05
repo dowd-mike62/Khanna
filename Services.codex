@@ -2,7 +2,9 @@
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Khaana</title>
+        <title>
+        <root>
+        Khaana</title>
     </head>
     <body>
         <h1>Welcome to our restaurant.</h1>
