@@ -1,21 +1,7 @@
-
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>Khaana</title>
-    </head>
-    <body>
-        <h1>Welcome to our restaurant.</h1>
-        <p>This is a simple website built with plain text.</p>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-        </ul>
-    </body>
-    </html>
-
-
-<!-- Color palette -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Khaana</title>
   <style>
     :root{
       --terracotta:#D95D39;
@@ -25,7 +11,7 @@
       --cream:#fff8ea;
     }
 
-    /* Base */
+     /* Base */
     html,body{margin:0;padding:0;background:var(--cream);color:var(--ink);}
     body{font-family:"Trebuchet MS", Arial, sans-serif; line-height:1.55;}
     h1,h2,h3{font-family:Georgia, "Times New Roman", serif; margin:0 0 .4rem;}
@@ -56,3 +42,50 @@
       /* scalloped cut-outs like papel picado */
       background: radial-gradient(circle at 8px -2px, transparent 10px, var(--cream) 10px) 0 0/24px 10px repeat-x;
     }
+  </style>
+</head>
+<body>
+  <div class="papel"></div>
+  <div class="wrap">
+
+    <h1>Khaana - Services</h1>
+ 	<hr style="border: none; height: 6px; background-color: gold;">
+    <h2>Our Services</h2>
+    As a part of the Lafayette community, we love to offer services to our loyal customers! We have a diverse range of different resources including:
+    <br>
+    <ul type="square">
+    <li> <i><b>Parties</b></i><br>
+    	<ul type="disc">
+    		<li> 
+        If you love Mexican food, and have a reason to celebrate, we have quite the offering for you! If you have a group of 10 or more, you can reserve a room at Khaana for the low price of $100 for 3 hours!  
+        	</li>
+        </ul>
+    </li>
+    <li> <i><b>Catering</b></i><br> 
+    		<ul type="disc">
+    		<li> 
+            Grad parties? Club events? Khaana wants <b>your</b> people to be happy and to eat well. No matter the size of your gathering, Khanna will be here to provide.
+            </li>
+            </ul>
+            </li>
+    <li> <i><b>Buffets</b></i><br> 
+    		<ul type="disc">
+    		<li> 
+            Every <b>Tuesday from 11am to 3pm,</b> we provide a buffet to the people of Lafayette. $18 for one drink along with unlimited tacos, chips, and dips!
+        	</li>
+        </ul>
+    </li>
+    <li> <i><b>Live Music</b></i><br>
+    		<ul type="disc">
+    		<li> 
+            Every <b>Saturday from 11am to 7pm,</b> our friend <a href="https://open.spotify.com/artist/3KplpjRJQko3AKnFWKwf3d?si=L1jJDDIYTu-7yv68KeGglA">Ramon Gonzales</a> comes to play at our food truck! Support his music on Spotify above!
+        	</li>
+        </ul>
+    </li>
+    <li> <i><b>and many more!!</b></i> </li>
+    </ul>
+    <br> <br>
+    
+  </div>
+</body>
+</html>
