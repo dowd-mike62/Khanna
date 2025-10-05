@@ -1,3 +1,20 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Khaana</title>
+    </head>
+    <body>
+        <h1>Welcome to our restaurant.</h1>
+        <p>This is a simple website built with plain text.</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </body>
+    </html>
+
+
 <!-- Color palette -->
   <style>
     :root{
