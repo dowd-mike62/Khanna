@@ -24,6 +24,8 @@
     header{padding:1.25rem 1rem 0rem;}
     .hero{display:flex;gap:1rem;align-items:center;padding:1rem;}
     .hero img{width:160px;height:220px;object-fit:cover;border-radius:12px;border:4px solid var(--gold); box-shadow:0 6px 20px rgba(0,0,0,.15);}
+    .anti{display:flex;gap:1rem;align-items:center;padding:1rem;}
+    .anti img{width:600px;height:400px;object-fit:cover;border-radius:12px;border:4px solid var(--gold); box-shadow:0 6px 20px rgba(0,0,0,.15);}
     .hero-text{flex:1}
 
     /* Folk-art accents */
@@ -42,6 +44,12 @@
       /* scalloped cut-outs like papel picado */
       background: radial-gradient(circle at 8px -2px, transparent 10px, var(--cream) 10px) 0 0/24px 10px repeat-x;
     }
+    
+        /* Satisfy 2 different font sizes + colors */
+    .lead{font-size:1.1rem;}        /* slightly larger paragraph */
+    .fine{font-size:.9rem; font-style:italic;} /* slightly smaller paragraph, italic */
+    .accent{color:var(--cactus);font-weight:bold;}
+    .highlight{color:var(--gold);}
   </style>
 </head>
 <body link="#2E7D32" vlink="#FFC107" alink="#D95D39">
@@ -51,15 +59,18 @@
     <h1>Khaana - Services</h1>
  	<hr style="border: none; height: 6px; background-color: gold;">
     <h2>Our Services</h2>
+    
+    <p class="lead">
     As a part of the Lafayette community, we love to offer services to our loyal customers! We have a diverse range of different resources including:
-    <br>
+    </p>
     <ul type="square">
     <li> <i><b>Parties</b></i><br>
     	<ul type="disc">
     		<li> 
-        If you love Mexican food, and have a reason to celebrate, we have quite the offering for you! If you have a group of 10 or more, you can reserve a room at Khaana for the low price of $100 for 3 hours!  
+        If you love <b>Mexican food</b>, and have a reason to celebrate, we have quite the offering for you! If you have a group of 10 or more, you can reserve a room at Khaana for the low price of $100 for 3 hours!  
         	</li>
         </ul>
+        <br>
     </li>
     <li> <i><b>Catering</b></i><br> 
     		<ul type="disc">
@@ -67,24 +78,35 @@
             Grad parties? Club events? Khaana wants <b>your</b> people to be happy and to eat well. No matter the size of your gathering, Khanna will be here to provide.
             </li>
             </ul>
+        <br>
             </li>
     <li> <i><b>Buffets</b></i><br> 
     		<ul type="disc">
     		<li> 
-            Every <b>Tuesday from 11am to 3pm,</b> we provide a buffet to the people of Lafayette. $18 for one drink along with unlimited tacos, chips, and dips!
+            Every <u>Tuesday from 11am to 3pm,</u> we provide a buffet to the people of Lafayette. $18 for one drink along with unlimited tacos, chips, and dips!
         	</li>
         </ul>
+        <br>
     </li>
     <li> <i><b>Live Music</b></i><br>
     		<ul type="disc">
     		<li> 
-            Every <b>Saturday from 11am to 7pm,</b> our friend <a href="https://open.spotify.com/artist/3KplpjRJQko3AKnFWKwf3d?si=L1jJDDIYTu-7yv68KeGglA">Ramon Gonzales</a> comes to play at our food truck! Support his music on Spotify above!
+            Every <u>Thursday to Saturday after 8pm,</u> our friend <a href="https://open.spotify.com/artist/3KplpjRJQko3AKnFWKwf3d?si=L1jJDDIYTu-7yv68KeGglA">Ramon Gonzales</a> comes to play at our food truck! Support his music on Spotify above!
         	</li>
         </ul>
+        <br>
     </li>
     <li> <i><b>and many more!!</b></i> </li>
     </ul>
     <br> <br><br>
+    
+    <section class="anti">
+
+      <img src="assets/img/Khanna_1.avif" alt="Groups having a great time at Khaana">
   </div>
 </body>
 </html>
+
+<footer>
+      <div>Date last modified: <script>document.write(document.lastModified);</script></div>
+    </footer>
