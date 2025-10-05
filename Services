@@ -7,7 +7,23 @@
       --ink:#1b1b1b;
       --cream:#fff8ea;
     }
-/* accents */
+
+    /* Base */
+    html,body{margin:0;padding:0;background:var(--cream);color:var(--ink);}
+    body{font-family:"Trebuchet MS", Arial, sans-serif; line-height:1.55;}
+    h1,h2,h3{font-family:Georgia, "Times New Roman", serif; margin:0 0 .4rem;}
+    h1{font-size:2rem;color:var(--terracotta);}
+    h2{font-size:1.35rem;color:var(--cactus);}
+    h3{font-size:1.15rem;color:var(--ink);}
+
+    /* Layout */
+    .wrap{max-width:980px;margin:0 auto;padding:0 1rem 2rem;}
+    header{padding:1.25rem 1rem 0rem;}
+    .hero{display:flex;gap:1rem;align-items:center;padding:1rem;}
+    .hero img{width:160px;height:220px;object-fit:cover;border-radius:12px;border:4px solid var(--gold); box-shadow:0 6px 20px rgba(0,0,0,.15);}
+    .hero-text{flex:1}
+
+    /* Folk-art accents */
     .papel{
       height:16px;
       background:
@@ -16,4 +32,10 @@
           var(--gold) 24px 48px,
           var(--cactus) 48px 72px);
       position:relative;
+    }
+    .papel:after{
+      content:"";
+      position:absolute;left:0;right:0;bottom:-8px;height:8px;
+      /* scalloped cut-outs like papel picado */
+      background: radial-gradient(circle at 8px -2px, transparent 10px, var(--cream) 10px) 0 0/24px 10px repeat-x;
     }
