@@ -1,0 +1,19 @@
+<!-- Color palette -->
+  <style>
+    :root{
+      --terracotta:#D95D39;
+      --cactus:#2E7D32;
+      --gold:#FFC107;
+      --ink:#1b1b1b;
+      --cream:#fff8ea;
+    }
+/* accents */
+    .papel{
+      height:16px;
+      background:
+        repeating-linear-gradient(90deg,
+          var(--terracotta) 0 24px,
+          var(--gold) 24px 48px,
+          var(--cactus) 48px 72px);
+      position:relative;
+    }
